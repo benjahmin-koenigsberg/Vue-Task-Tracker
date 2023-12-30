@@ -98,6 +98,13 @@ export default {
 
       return data
     },
+       async fetchTask(id) {
+      const res = await fetch(`https://json-server-hj3q.onrender.com/api/tasks/${id}`)
+
+      const data = await res.json()
+
+      return data
+    },
   },
   async created() {
 
