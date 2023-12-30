@@ -130,6 +130,7 @@ export default {
 
 body {
   font-family: "Poppins", sans-serif;
+  font-size: calc(60% + 1.2vmin);
 }
 
 .container {
